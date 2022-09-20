@@ -1,0 +1,91 @@
+body {
+	background: rgb(138, 138, 255);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0px;
+}
+
+.trans {
+	margin: 35px 0px 0px 10px;
+	color:  rgb(138, 138, 255);
+	width: 130px;
+}
+
+.open {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	justify-content: center;
+}
+
+.card {
+  margin-top: 100px;
+	width: 40%;
+	background-color: antiquewhite;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+input {
+	width: 90%;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+
+.null {
+	padding-bottom: 10px;
+}
+
+.list {
+	list-style: none;
+}
+
+.list-item {
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+	align-items: center;
+}
+
+button {
+	border-radius: 10px;
+	border:0px;
+	margin: 15px;
+	width: 90px;
+	height: 25px;
+	font-size: 15px;
+	color: white;
+	background-color: white;
+}
+
+.btn_add {
+	background-color: rgb(0, 160, 93);
+}
+
+.btn_delete {
+	background-color: rgb(171, 56, 56);
+}
+
+nav {
+	display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	width: 120px;
+    font-size: 30px;
+    font-family: monospace;
+	text-align: center;
+	vertical-align: center;
+    border-radius: 7px;
+}
+
+.b {
+	padding-top: 15px;
+}
+
+.header {
+	background-color: white;
+}
